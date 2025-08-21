@@ -1,0 +1,73 @@
+/* task-list */
+.task-list {
+  margin: 0 7%;
+}
+
+/* task-list Header */
+.task-list-header {
+  display: flex;
+  align-items: center;        
+  justify-content: space-between; 
+  gap: 10px;  
+  margin-bottom: 10px;            
+}
+
+.task-list-header p{
+  font-size: 27px;
+  font-weight: bold;
+}
+
+/* Filtreler container */
+.filter-items {
+  display: flex;
+  margin-left: auto;
+  gap: 8px;                 
+}
+
+/* FilterItem stil örneği */
+.filter-item,
+.filter-item-selected {
+  width: 80px;
+  height: 25px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.filter-item{
+  color: #9da3a9;
+  border: 1px solid #9da3a9;
+  opacity: 0.5;
+  align-items: center;
+}
+
+.filter-item-selected{
+ background-color: white;
+}
+
+.filter-item:hover {
+  opacity: 1;
+}
+
+.add-task{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid #dcdcdc;
+  color: #dcdcdc;
+  font-size: 25px;
+  gap: 15px;
+  padding: 3px;
+  border-radius: 15px;
+}
+
+.task-items{
+  height: 420px;
+  overflow-y: auto;  
+}
+

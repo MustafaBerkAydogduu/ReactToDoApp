@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content-container{
+  width: 80%;
+  height: 100vh;
+  background-color: #f4f4f4;
+  color: #555758;
+  
+}
+/* Header */
+.header {
+font-size: 40px;
+font-weight: 500;
+display: flex;
+justify-content: center;
+margin: 20px 0;
+}
+

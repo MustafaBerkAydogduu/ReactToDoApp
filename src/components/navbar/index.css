@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 20%; 
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #9da3a9;
+  font-size: 17px;
+  padding: 10px;
+}
+
+.navbar-logo {
+  width: 40px;
+  margin: 50px auto 0 auto;
+}
+
+.navbar-items {
+  margin-top: 50px;
+}
+
+.navbar-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 8px 0;
+  white-space: nowrap;
+  cursor: pointer;
+  text-decoration: none;
+  color: #9da3a9;
+
+}
+
+.navbar-item:hover {
+  background-color: #f4f4f4;
+}
+
+.navbar-item-active {
+  background-color: #f4f4f4;
+  color: #8157de;
+   display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 8px 0;
+  white-space: nowrap;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-item-i {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: auto;
+  margin-bottom: 20px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.logout:hover {
+  background-color: #f4f4f4;
+}
+
+.logout svg {
+  font-size: 24px;
+}
+
+.sub-menu {
+  margin-left: 35px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sub-item {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+  padding-left: 4px;
+  border-radius: 4px;
+  width: 80%;
+}
+
+.sub-item:hover {
+  background-color: #f4f4f4;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 30%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.add-category{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.add-input {
+  padding: 6px 8px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 80%;
+  outline: none;
+  background-color: #f9f9f9;
+  transition: 0.2s;
+}
+
+.add-input:focus {
+  border-color: #42a5f5;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(66,165,245,0.3);
+}
+
+.add-input:hover {
+  background-color: #f0f0f0;
+}
+.add-category-cancel{
+  margin-left: 10px;
+  color: #9da3a9;
+  font-size: 20px;
+}
+
+#delete-icon {
+  margin-left:auto ;
+  cursor: pointer;
+}
+
+.category-error-message {
+  color: #d9534f;
+  font-size: 12px;
+}

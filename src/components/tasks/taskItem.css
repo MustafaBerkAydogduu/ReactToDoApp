@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.task-item {
+  width: 99%;
+  height: 85px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+.is-done {
+  border-right: 1px solid #d6d6d6;
+  height: 100%;
+  width: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.is-done-icon {
+  font-size: 30px;
+  color: #8157de;
+  cursor: pointer;
+}
+
+.task-content {
+  width: 75%;
+  height: 100%;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.task-content p {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.done-text {
+  text-decoration: line-through;
+  color: #888; /* isteğe bağlı soluk renk */
+}
+.category{
+  color: #9da3a9;
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 30%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.task-icon{
+  width: 18%;
+  font-size: 40px;
+  color: #d6d6d6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
